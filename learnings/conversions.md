@@ -77,3 +77,17 @@ It’s like “marking a checkbox” instead of getting a report
 
 > printf("Progress: 100%%\n"); // Output: Progress: 100%
 
+## Table of Contents 
+
+| Specifier | C Type         | What it prints (technical) | Manager Analogy                  |
+| --------- | -------------- | -------------------------- | -------------------------------- |
+| `%c`      | `int`          | Single character           | Single letter from team member   |
+| `%s`      | `char *`       | String of characters       | Full paragraph report            |
+| `%p`      | `void *`       | Memory address (hex)       | Desk location of team member     |
+| `%d/%i`   | `int`          | Signed integer             | Tasks done or delayed            |
+| `%u`      | `unsigned int` | Unsigned integer           | Only positive tasks              |
+| `%x`      | `unsigned int` | Hexadecimal lowercase      | Shorthand notes, casual letters  |
+| `%X`      | `unsigned int` | Hexadecimal uppercase      | Shorthand notes, capital letters |
+| `%%`      | -              | Literal `%`                | Marking a percent on report      |
+
+

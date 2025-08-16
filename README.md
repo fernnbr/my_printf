@@ -8,7 +8,7 @@ Then, after a second or so, nothing continued to happen"
 
 <div align="center">
   
-## Welcome, Stranger! 
+# Welcome, Stranger! 
 This is the **printif** repo
 
 <p align="center">

@@ -1,4 +1,4 @@
-## What Is (technically)?
+## What it is (technically)?
 
 Variadic functions in C are functions that can take a variable number of arguments.
 A common example is printf(). To handle such functions, C provides a set of macros 

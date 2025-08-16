@@ -1,9 +1,25 @@
+> "For a moment, nothing happened. Then, after a second or so, nothing continued to happen" 
+> The Hitchhiker's Guide to the Galaxy, Douglas Adams
+
+<br></br>
+
+<div align="center">
+  
 ## Welcome, Stranger! 
 This is the **printif** repo
 
+<p align="center">
+  <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3NwaW81bHd6ZTJwemtrbWY2ZDVlZDVxa3RpYjIwODd1cHpjd2lvbyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/yUrUb9fYz6x7a/giphy.gif">
+</p></figcaption>
+<p align="center">
+  (print, print, print)
+</p>
+
+</div>
+
 ## About this Repo
 
-This repository contains my implementation, learning (and attempts) of ft_printf, 
+This repository will contain my implementation, learning (and attempts) of ft_printf, 
 a custom version of the well-known C standard library function printf().
 
 

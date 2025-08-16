@@ -1,7 +1,9 @@
 ```
 "For a moment, nothing happened.
-Then, after a second or so, nothing continued to happen" 
-- The Hitchhiker's Guide to the Galaxy, Douglas Adams
+Then, after a second or so, nothing continued to happen."
+ 
+- The Hitchhiker's Guide to the Galaxy,
+Douglas Adams
 ```
 
 <br></br>

@@ -67,6 +67,16 @@ After all reports are collected, you put away your notepad
 (In C: va_end(args);)
 **This prevents any “leaks” or confusion about leftover reports**
 
+## Summarazing Analogies 
+
+Manager: "Ok team, give me your reports."
+
+- va_list  = notepad to track who reported
+- va_start = start collecting from first person
+- va_arg   = read each report, one by one
+- va_end   = done, close the notepad
+
+
 
 
 

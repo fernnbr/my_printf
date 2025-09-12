@@ -33,18 +33,24 @@ a custom version of the well-known C standard library function printf().
 **The project’s main goal is to understand and recreate the inner workings of printf() while learning how to:**
 
 - Work with variadic functions in C (va_list, va_start, va_arg, va_end) [handling a variable number of arguments]
-
 - Parse and process format strings [characters, strings, integers, hexadecimals, etc]
-
 - Print different data types with custom formatting 
-
 - Build and manage a static library (libftprintf.a)
-
 - Write modular and maintainable C code that can be reused in other projects
-  
-- Learn how to manage a project with Makefile, memory safety, and coding standards 
+- Learn how to manage a project with Makefile, memory safety, and coding standards
 
+## Requirements 
 
+- You have to recode the printf() function from libc.
+- The prototype of x_printf() is:
+- int x_printf(const char *, ...);
+
+- Do not implement the original printf()’s buffer management.
+- Your function has to handle the following conversions: cspdiuxX%
+- Your implementation will be evaluated against the behavior of the original printf().
+- You must use the command ar to create your library.
+- The use of the libtool command is strictly forbidden.
+- libftprintf.a must be created at the root of your repository
 
 ## Conversions Supported
 

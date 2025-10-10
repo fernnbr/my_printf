@@ -35,19 +35,19 @@ int	ft_function_type(const char *s, va_list ap)
 	type_count = 0;
 	if (*s == '%')
 		type_count += write(1, "%", 1);
-	if (*s == 'c')
-		type_count += ft_print_c(va_arg(ap, int));
 	if (*s == 's')
 		type_count += ft_print_s(va_arg(ap, char *));
+	if (*s == 'c')
+		type_count += ft_print_c(va_arg(ap, int));
+	if (*s == 'x')
+		type_count += ft_print_hex_lower(va_arg(ap, unsigned int));
+	if (*s == 'X')
+		type_count += ft_print_hex_upper(va_arg(ap, unsigned int));
 	if (*s == 'p')
 		type_count += ft_print_mem(va_arg(ap, unsigned long));
 	if ((*s == 'd') || (*s == 'i'))
 		type_count += ft_print_nbr(va_arg(ap, int));
 	if ((*s == 'u'))
 		type_count += ft_print_unbr(va_arg(ap, unsigned int));
-	if (*s == 'x')
-		type_count += ft_print_hex_lower(va_arg(ap, unsigned int));
-	if (*s == 'X')
-		type_count += ft_print_hex_upper(va_arg(ap, unsigned int));
 	return (type_count);
 }

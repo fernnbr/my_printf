@@ -11,7 +11,7 @@ Douglas Adams
 <div align="center">
   
 # Welcome, Stranger! 
-This is the **printif** repo
+This is the **printif** repo (this repo is under update - new folders and logics were added) 
 
 <p align="center">
   <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3NwaW81bHd6ZTJwemtrbWY2ZDVlZDVxa3RpYjIwODd1cHpjd2lvbyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/yUrUb9fYz6x7a/giphy.gif">
@@ -75,6 +75,9 @@ This version of ft_printf supports the following conversions:
 - %X (uppercase hex),
 - %% (percent sign)
 
+#Things to be aware
+The submmited printf.c does not handle undefinied arguments. But will be a folder with this kind of function. I'm dealing with some loops and restrictions 
+
 
 ## Suggested Steps to Build the Project
 
@@ -94,26 +97,12 @@ This version of ft_printf supports the following conversions:
 
 **Helper functions:**
 
-- ft_print_char,
-- ft_print_string,
-- ft_print_pointer,
-- ft_print_int,
-- ft_print_unsigned,
-- ft_print_hex_lower,
-- ft_print_hex_upper,
-- ft_print_percent
+(names coming soon)
 
 **Utilities:**
 
-- String length (ft_strlen)
+(names coming soon)
 
-- Number-to-string conversions
-
-- Hexadecimal conversion
-
-- Header file: ft_printf.h — prototypes, includes, macros
-
-- Makefile (compiles into libftprintf.a)
 
 **3. Learn Variadic Functions**
 
@@ -155,9 +144,7 @@ Suggested order:
 
 5.3. Use both:
 
-- Your own tests
-
-- Comparison against real printf()
+(my own tests are at the "submitted folder")
 
 
 **6. Build the Static Library**

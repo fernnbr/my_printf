@@ -1,3 +1,5 @@
+// this function has more than 25 lines of code - just to study and understand the behaviour of printf project. This code deals with undified specificators
+
 #include "ft_printf.h"
 
 int	ft_printf(const char *s, ...)

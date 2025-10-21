@@ -10,19 +10,14 @@ int	ft_printf(const char *s, ...)
 	while (s[i] != '\0')
 	{
 		if (s[i] != '%')
+			count += write(1, &s[i++], 1);
+		else if (s[i] == '%' && s[++i])
 		{
-			count += write(1, &s[i], 1);
-			i++;
-		}
-		else if (s[i] == '%')
-		{
-			i++;
 			if (ft_strchr("%cspdiuxX", s[i]))
 				count += ft_function_type(&s[i], ap);
-			else if (s[i] != '\0')
+			else
 				count += write(1, &s[i], 1);
-			if (s[i] != '\0')
-				i++;
+			i++;
 		}	
 	}
 	va_end(ap);
